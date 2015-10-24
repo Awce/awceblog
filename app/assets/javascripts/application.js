@@ -11,6 +11,16 @@
 // about supported directives.
 //
 //= require jquery
+//= require materialize-sprockets
+//= require materialize/extras/nouislider
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+(function($){
+  $(function(){
+
+    $('.button-collapse').sideNav();
+    $('.parallax').parallax();
+
+  }); // end of document ready
+})(jQuery); // end of jQuery name space

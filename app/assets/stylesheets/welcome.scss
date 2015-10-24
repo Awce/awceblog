@@ -1,0 +1,26 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.avatar {
+  line-height: 0;
+  display: inline-block;
+  margin: 9px;
+  padding: auto;
+  border: 2px solid rgba(255,255,255,0.4);
+  border-radius: 50%;
+  transition: linear 0.25s;
+  height: 42px;
+  width: 42px;
+
+  :hover {
+    transition: ease-out 0.2s;
+    border: 2px solid transparent;
+    -webkit-transition: ease-out 0.2s;
+  }
+}
+
+header {
+  .parallax-container {
+    height: 100px;
+  }
+}
